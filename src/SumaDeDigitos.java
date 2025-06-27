@@ -6,7 +6,7 @@ public class SumaDeDigitos {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         sc.nextLine();
-        while (num > 0) {
+        while (num >= 0) {
             char[] digitos = Integer.toString(num).toCharArray();
             int suma = 0;
             int numDigitos = digitos.length;
